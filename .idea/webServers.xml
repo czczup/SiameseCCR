@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5839d46c-228b-437a-b25f-4f373dc53249" name="softitee" url="http://art.deepicecream.com">
+        <fileTransfer host="art.deepicecream.com" port="7001" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="7001" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
