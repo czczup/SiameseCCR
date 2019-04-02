@@ -94,14 +94,14 @@ def train(sess, saver, siamese, train_time, data_sum, epoch):
                                                                                              siamese.right: image_train2,
                                                                                              siamese.label: label_train,
                                                                                              siamese.training: True})
-                writer_train.add_summary(summary, step)
+                writer_train.add_summary(summary, step_)
                 image_valid1, image_valid2, label_valid = sess.run(
                     [image_batch_valid1, image_batch_valid2, label_batch_valid])
                 acc_valid, summary = sess.run([siamese.accuracy, siamese.merged], feed_dict={siamese.left: image_valid1,
                                                                                              siamese.right: image_valid2,
                                                                                              siamese.label: label_valid,
                                                                                              siamese.training: True})
-                writer_valid.add_summary(summary, step)
+                writer_valid.add_summary(summary, step_)
                 print('[epoch %d, step %d/%d]: train acc %.3f, valid acc %.3f'%(step//(data_sum//siamese.batch_size),
                                                                                 step%(data_sum//siamese.batch_size),
                                                                                 data_sum//siamese.batch_size, acc_train,

@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba7f449-74a0-4019-977a-32914478e651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/generate_train_tfrecord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/reconstruct_train_tfrecord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gb2312_level1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/dataset/template.7z" beforeDir="false" afterPath="$PROJECT_DIR$/data/template.7z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/dataset/test.7z" beforeDir="false" afterPath="$PROJECT_DIR$/data/test.7z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/dataset/train.7z" beforeDir="false" afterPath="$PROJECT_DIR$/data/train.7z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/character_set/gb2312_level1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/character_set/gb2312_level2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/get_matching_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/get_test_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/get_training_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character-generator/msyhbd.ttc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/gb2312_level1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/generate_tfrecord.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/clean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/gb2312_level1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/generate_batch_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/generate_batch_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/generate_batch_data_from_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/generate_batch_data_from_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/generate_tfrecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/generate_tfrecord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deep-siamese/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/generate_batch_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/generate_batch_data_from_result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/generate_tfrecord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/reconstruct_train_tfrecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/reconstruct_train_tfrecord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,45 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/generate_batch_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="28" column="30" selection-start-line="24" selection-end-line="37" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/generate_batch_data_from_result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/generate_train_tfrecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="2808">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -93,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/reconstruct_train_tfrecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+            <state relative-caret-position="252">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -103,10 +45,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="95" column="48" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+            <state relative-caret-position="546">
+              <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -114,22 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="108" column="23" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/generate_tfrecord.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1040">
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -161,12 +110,12 @@
         <option value="$PROJECT_DIR$/src/siamese/__init__.py" />
         <option value="$PROJECT_DIR$/src/siamese/main.py" />
         <option value="$PROJECT_DIR$/code/generate_train_tfrecord.py" />
-        <option value="$PROJECT_DIR$/code/reconstruct_train_tfrecord.py" />
         <option value="$PROJECT_DIR$/code/clean.py" />
-        <option value="$PROJECT_DIR$/code/main.py" />
-        <option value="$PROJECT_DIR$/code/train.py" />
-        <option value="$PROJECT_DIR$/code/model.py" />
+        <option value="$PROJECT_DIR$/code/reconstruct_train_tfrecord.py" />
         <option value="$PROJECT_DIR$/code/test.py" />
+        <option value="$PROJECT_DIR$/code/model.py" />
+        <option value="$PROJECT_DIR$/code/train.py" />
+        <option value="$PROJECT_DIR$/code/main.py" />
       </list>
     </option>
   </component>
@@ -184,8 +133,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2981" />
-    <option name="y" value="-18" />
+    <option name="x" value="2980" />
+    <option name="y" value="-19" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -219,6 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/siamese" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -286,18 +236,19 @@
       <option name="presentableId" value="Default" />
       <updated>1554034561944</updated>
       <workItem from="1554034563209" duration="9994000" />
-      <workItem from="1554128213922" duration="8088000" />
+      <workItem from="1554128213922" duration="12535000" />
+      <workItem from="1554167661033" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18082000" />
+    <option name="totallyTimeSpent" value="22661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18812375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19011976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,61 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/generate_batch_data_from_result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/generate_tfrecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/reconstruct_train_tfrecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/generate_batch_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="28" column="30" selection-start-line="24" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1291">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/generate_train_tfrecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/clean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -405,30 +301,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/main.py">
+    <entry file="file://$PROJECT_DIR$/code/generate_batch_data_from_result.py" />
+    <entry file="file://$PROJECT_DIR$/code/generate_batch_data.py" />
+    <entry file="file://$PROJECT_DIR$/code/generate_tfrecord.py" />
+    <entry file="file://$PROJECT_DIR$/code/generate_train_tfrecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="23" />
+        <state relative-caret-position="2808">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/reconstruct_train_tfrecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1040">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="95" column="48" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+        <state relative-caret-position="546">
+          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,10 +1,8 @@
 import tensorflow as tf
-from functools import reduce
-from operator import mul
 
 
 class Siamese(object):
-    def __init__(self):
+    def __init__(self, class_num):
         with tf.name_scope("input"):
             self.left = tf.placeholder(tf.float32, [None, 44, 44, 1], name='left')
             self.right = tf.placeholder(tf.float32, [None, 44, 44, 1], name='right')
@@ -19,8 +17,8 @@ class Siamese(object):
         self.prediction, self.loss, self.test_param = self.contrastive_loss(self.left_output, self.right_output, self.label)
         tf.summary.scalar('loss', self.loss)
         self.batch_size = 512
-        self.learning_rate = tf.train.exponential_decay(1e-3, self.global_step, decay_steps=1E6//self.batch_size,
-                                                        decay_rate=0.998, staircase=True)
+        self.learning_rate = tf.train.exponential_decay(1e-3, self.global_step, decay_steps=6E5//self.batch_size,
+                                                        decay_rate=0.999, staircase=True)
         tf.summary.scalar('learning_rate', self.learning_rate)
         with tf.name_scope('correct_prediction'):
             correct_prediction = tf.equal(tf.less(self.prediction, 0.5), tf.less(self.label, 0.5))
@@ -32,7 +30,7 @@ class Siamese(object):
             tf.summary.scalar('matching-accuracy', self.accuracy)
             self.merged = tf.summary.merge_all()
         with tf.name_scope('test-network'):
-            self.test_network()
+            self.test_network(class_num)
 
     def conv2d(self, x, output_filters, kernel, strides=1, padding="SAME"):
         conv = tf.contrib.layers.conv2d(x, output_filters, [kernel, kernel], activation_fn=tf.nn.relu, padding=padding,
@@ -100,10 +98,10 @@ class Siamese(object):
             loss = tf.reduce_mean(losses)
         return y_, loss, [W, b]
 
-    def test_network(self):
+    def test_network(self, class_num):
         self.template_feature = tf.placeholder(tf.float32, [None, 256])
         self.image_feature = tf.placeholder(tf.float32, [None, 256])
-        image_feature = tf.tile(self.image_feature, multiples=[3755, 1])
+        image_feature = tf.tile(self.image_feature, multiples=[class_num, 1])
         output_difference = tf.abs(image_feature-self.template_feature)
         wx_plus_b = tf.matmul(output_difference, self.test_param[0])+self.test_param[1]
         self.test_y_hat = tf.nn.sigmoid(wx_plus_b, name='distance')

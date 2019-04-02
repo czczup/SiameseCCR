@@ -27,7 +27,7 @@ for index, ch in label.values:
 
 
 def load_result(filename):
-    table = pd.read_csv("../result/"+filename, header=None)
+    table = pd.read_csv("../result/"+filename, header=None, error_bad_lines=False)
     error_top10 = []
     for item in table.values[:-1]:
         error_top10.append([item[0], item[1]])
@@ -36,7 +36,7 @@ def load_result(filename):
 
 def get_data(sample_sum, train_time):
     data = []
-    error_top10 = load_result("result%d.csv" % train_time)
+    error_top10 = load_result("result-train%d.txt" % train_time)
     for i in range(sample_sum):
         item = get_positive_pair()
         data.append(item)

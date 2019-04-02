@@ -96,7 +96,7 @@ def predict(character_list, template_list, sess, siamese):
         prediction = sess.run(siamese.test_y_hat, feed_dict={siamese.image_feature: feature,
                                              siamese.template_feature: [template.feature for template in template_list],
                                              siamese.training: False})
-        min_list = heapq.nsmallest(10, range(len(prediction)), prediction.take)
+        min_list = heapq.nlargest(11, range(len(prediction)), prediction.take)
         pred_character = [template_list[item].label for item in min_list]
         pred_characters.append(pred_character)
         true_characters.append(character.label)
