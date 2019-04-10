@@ -5,7 +5,7 @@
       <paths name="softitee">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/czczcz/Recognition/SiameseCCR" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/czczcz/Recognition/SiameseCCR-27" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
