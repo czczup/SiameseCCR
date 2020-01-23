@@ -1,7 +1,7 @@
 # A tensorflow implementation for siamese CCR
 
 ## 1 Deployment Environment
-First, you should install the follow libraries:
+First, you should install the following libraries:
 ```
 pip install tensorflow-gpu==1.8
 pip install opencv-python
